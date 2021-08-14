@@ -8,7 +8,7 @@
               a(href="https://developers.google.com/community/gdg" class="text_body-1_medium footer__link" ) Google Developer Group
               a(href="https://gdgvl.ru/" class="text_body-1_medium footer__link") GDG Vladivostok
               a(href="https://developers.google.com/community/dsc" class="text_body-1_medium footer__link") Google Developer Students Club
-              a(href="#" class="text_body-1_medium footer__link") Github
+              a(href="https://github.com/SavchukNikita/gdsc-landing" class="text_body-1_medium footer__link") Github
       v-card-text( class="text" ) {{ new Date().getFullYear() }} —
         |
         |
