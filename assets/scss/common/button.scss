@@ -1,0 +1,9 @@
+.btn {
+  padding: 12px;
+}
+
+.btn__color_blue {
+  @extend .btn;
+  background-color: #1976D2;
+  color: #FFFFFF !important;
+}

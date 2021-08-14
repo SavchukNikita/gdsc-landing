@@ -1,0 +1,35 @@
+.text {
+  color: var(--v-text-primary-base);
+}
+
+.text_body-1_medium {
+  @extend  .text;
+  font-weight: 500;
+}
+
+.text_heading-3_regular {
+  @extend  .text;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.text_heading-4_regular {
+  @extend  .text;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.text_subtitle-1_regular {
+  @extend  .text;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--v-text-secondary-base);
+}
+
+._title {
+  line-height: normal;
+}
+
+.title_spacer {
+  margin-bottom: 64px;
+}

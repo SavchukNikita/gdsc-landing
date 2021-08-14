@@ -1,0 +1,18 @@
+.block {
+  background-color: var(--v-bg-primary-base);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  margin: -12px;
+  padding: 12px;
+}
+
+.block_spacer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.block_darken {
+  @extend .block;
+  background-color: var(--v-bg-secondary-base);
+}
